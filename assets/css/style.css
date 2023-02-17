@@ -5425,6 +5425,7 @@ z .slider-area .hero-cap h2 {
 }
 
 .service-area .services-caption {
+  height: 100%;
   background: #D9FCEC;
   padding: 84px 45px 56px;
   border: 1px solid transparent;
@@ -5513,6 +5514,21 @@ z .slider-area .hero-cap h2 {
   position: relative;
   left: 58%;
   margin-top: 72px;
+}
+.applic-apps .single-cases-info ul {
+  margin-left: 20px;
+  font-size: 20px;
+  line-height: 40x;
+}
+.applic-apps .single-cases-info ul li {
+  list-style: disc;
+  margin-bottom: 10px;
+}
+@media only screen and (min-width: 1600px) {
+  .applic-apps .single-cases-info {
+    margin-top: 72px;
+    left: 30%;
+  }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
   .applic-apps .single-cases-info {
@@ -5666,6 +5682,9 @@ z .slider-area .hero-cap h2 {
   margin-top: -295px;
 }
 .pricing-card-area .single-card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
   position: relative;
   background: #fff;
   padding: 40px 25px;
@@ -5716,6 +5735,12 @@ z .slider-area .hero-cap h2 {
 .pricing-card-area .single-card .card-top h4 span {
   color: #6a56a6;
   font-size: 16px;
+}
+.pricing-card-area .single-card .card-bottom {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  flex: 1;
 }
 .pricing-card-area .single-card .card-bottom ul li {
   color: #717081;

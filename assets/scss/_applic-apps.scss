@@ -7,9 +7,25 @@
         position: relative;
         left: 58%;
         margin-top: 72px;
+
+        ul {
+            margin-left: 20px;
+            font-size: 20px;
+            line-height: 40x;
+            li {
+                list-style: disc;
+                margin-bottom: 10px;
+            }
+        }
+
+        @media only screen and (min-width: 1600px) {
+            margin-top: 72px;
+            left: 30%;
+        }
+
         @media #{$laptop}{
             margin-top: 72px;
-            left: 33%;
+            left: 33%;        
         }
         @media #{$lg}{
             left: 38%;

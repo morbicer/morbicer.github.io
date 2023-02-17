@@ -49,6 +49,9 @@
 .pricing-card-area{
     margin-top: -295px;
     .single-card{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
         position: relative;
         background: #fff;
         padding: 40px 25px;
@@ -92,6 +95,10 @@
             }
         }
         .card-bottom{
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            flex: 1;
             ul{
                 li{
                     color:#717081;
