@@ -63,3 +63,26 @@
 @import 'services';
 
 
+.partner-logos {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	gap: 20px;
+}
+
+.partner-logos > * {
+	width: 100%;
+	max-width: 200px;
+	display: block;
+}
+
+.partner-logos img {
+	width: 100%;
+	display: block;
+	filter: saturate(0%);
+}
+
+.partner-logos img:hover {
+	filter: saturate(100%);
+}
