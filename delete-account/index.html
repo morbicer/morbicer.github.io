@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Žádost o smazání účtu - JdeTo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        main {
+            margin: 80px auto;
+            max-width: 600px;
+        }
+        h1 {
+            color: #333;
+        }
+        p, ul {
+            color: #666;
+        }
+        form {
+        }
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #333;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+        }
+        button {
+            background-color: #6CC1B9;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+        button:hover {
+            background-color: #4BA1A2;
+        }
+    </style>
+</head>
+<body>
+
+    <main>
+        <h1>Žádost o smazání účtu - JdeTo</h1>
+        <p>Děkujeme, že jste používali aplikaci JdeTo. Pro smazání svého účtu, vyplňte následující formulář</p>
+        <p>Po jeho odeslání vás budeme kontaktovat pro autorizování vaší identity</p>
+        <form action="/" method="post">
+            <label for="full-name">Celé jméno:</label>
+            <input type="text" id="full-name" name="full-name" required>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="reason">Důvod smazání účtu:</label>
+            <textarea id="reason" name="reason" rows="4" required></textarea>
+            <p><strong>Důležité informace:</strong></p>
+            <p>Při smazání účtu budou následující údaje smazány:</p>
+            <ul>
+                <li>Osobní údaje spojené s účtem</li>
+                <li>Historie aktivit a používání aplikace</li>
+            </ul>
+            <p>Některé údaje mohou být uchovány za účelem splnění zákonných povinností po dobu 1 roku.</p>
+            <p>App: JdeTo</p>
+            <p>Developer: JdeTo</p>
+            <button type="submit">Odeslat žádost</button>
+        </form>
+    </main>
+
+</body>
+</html>
